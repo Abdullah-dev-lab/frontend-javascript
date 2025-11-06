@@ -1,6 +1,6 @@
 // 1. Define student interface
 
-interface student {
+interface Student {
     firstName: string;
     lastName: string;
     age: number;
@@ -8,13 +8,13 @@ interface student {
 }
 
 // 2, Create two students ojects
-const student1: student = {
+const student1: Student = {
     firstName: "Abdullah",
     lastName:  "Abdulmalik",
     age: 23,
     location: "Nigeria"
 }
-const student2: student = {
+const student2: Student = {
     firstName: "Habeeb",
     lastName: "Bankole",
     age: 20,
@@ -22,7 +22,7 @@ const student2: student = {
 }
 
 // 3. An array of students
-const studentsList: student[] = [student1, student2];
+const studentsList: Student[] = [student1, student2];
 
 // 4. Render a table in DOM usinf Vanilla JS 
 
