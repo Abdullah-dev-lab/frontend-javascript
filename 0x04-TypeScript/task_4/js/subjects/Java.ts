@@ -1,5 +1,5 @@
 namespace Subjects {
-    export class Teacher {
+    export interface Teacher {
      experienceTeachingJava?: number;   
     }
 
