@@ -3,10 +3,12 @@
 /// <reference path="./subjects/Cpp.ts" />
 
 export const cTeacher: Subjects.Teacher = {
+     firstName: "John",
+     lastName: "Doe",
     experienceTeachingC: 10
 }
 
-export const cpp = new Subjects.Cpp();
+const cpp = new Cpp();
 console.log("C++");
 
 cpp.setTeacher(cTeacher);
@@ -14,7 +16,7 @@ cpp.setTeacher(cTeacher);
 console.log(cpp.getRequirements());
 console.log(cpp.getAvailableTeacher());
 
-export const java = new Subjects.Java();
+const java = new Java();
 console.log("Java");
 
 java.setTeacher(cTeacher);
@@ -22,7 +24,7 @@ java.setTeacher(cTeacher);
 console.log(java.getRequirements());
 console.log(java.getAvailableTeacher());
 
-export const react = new Subjects.React();
+export const react = new React();
 console.log("React");
 
 react.setTeacher(cTeacher);
