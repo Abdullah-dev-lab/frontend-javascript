@@ -13,7 +13,7 @@ namespace Subjects {
             return "NO available teacher";
            }
             
-            return "Available Teacher: <first name of the teacher>";
+            return "Available Teacher: ${this.teacher.firstName}";
         }
     } 
 }
