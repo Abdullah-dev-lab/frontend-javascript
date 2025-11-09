@@ -1,5 +1,5 @@
 namespace Subjects {
-    class Teacher {
+    interface Teacher {
         firstName: string
         lastName: string
     }
