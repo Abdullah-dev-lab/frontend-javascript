@@ -2,7 +2,7 @@
 /// <reference path="./subjects/Subjects.ts" />
 /// <reference path="./subjects/Cpp.ts" />
 
-export const cTeacher: Subjects.Teacher = {
+export const cTeacher: Teacher = {
      firstName: "John",
      lastName: "Doe",
     experienceTeachingC: 10
